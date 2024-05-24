@@ -10,6 +10,12 @@ public class Runner {
         // terminalde bu noktada kırmızı klasör görünüyorsa onu da staging area'ya almak için şunu yaparız:
         // terminale git add ve dosyanın adını uzantısıyla yazarız
         // örnek : git add src/main/java/Runner.java
+        // böylece bu dosyayı da staging are'ya aldık
+
+        // terminali temizlemek için cls yazarız. bu sadece görüntü olarak temizler
+        // önceki komutlarımız geçerliliğini korur
+
+// git commit -m"v1" yazarsak commit area'ya gönderir
 
 
     }
