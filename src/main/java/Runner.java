@@ -28,18 +28,22 @@ public class Runner {
       //versiyon 2
                 System.out.println("hi");
 
-                /*
-                git log --oneline yazarak versiyonları görüntüleriz
-                yeni bir versiyon eklemek için önce git add . sonra
-                git commit -m"v2" yazarız (v2 yerine başka bir versiyon da seçilebilir)
-                bunu kısaca yapmak için git commit -m"v2" yazabiliriz tek seferde
-                 */
-
         // versiyon 3
         System.out.println("ana");
 
-// versiyon 4
-        System.out.println("ccc");
+/*
+var olan commitleri görmek için git log --oneline yazarız
+çıkan yazıda HEAD aktif commiti gösterir
+yeni eklemek için önce git add . sonra git commit -m"v3" yazarız. v3 ismi değişkendir
+bu eklemeyi tek hamlede yapmak için git commit -am"v3" yazabilirdik
+ */
+/*
+git log --oneline yazınca commitlerin hash numaraları çıkar. bu numaraları kullabiliriz
+mesele git checkout 4f5b5c2 yazarsam v1'e gider.
+bu sırada son yazdıklarımızı commitlemeişsek son versiyona dönsek bile
+commitlrnmemiş veriler gelmez
+ */
+
 
 
     }
