@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 public class Runner {
     public static void main(String[] args) {
 
@@ -16,6 +18,15 @@ public class Runner {
         // önceki komutlarımız geçerliliğini korur
 
 // git commit -m"v1" yazarsak commit area'ya gönderir
+
+        // Version2
+        System.out.println("git commit -m\"\" ile versiyon oluşturulur);
+
+                // git log yazarsak oluşturulma tarihini saatini maili vs gösterir terminalde
+
+
+      //versiyon 2
+                System.out.println("hi");
 
 
     }
