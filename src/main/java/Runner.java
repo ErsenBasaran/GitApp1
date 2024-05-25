@@ -44,6 +44,11 @@ bu sırada son yazdıklarımızı commitlemeişsek son versiyona dönsek bile
 commitlrnmemiş veriler gelmez
  */
 
+        /*
+        git reset --hard 4f5b5c2 yazarsak v1'e kadar olan tüm aradaki commitler
+        SİLİNİR VE GERİ GELMEZ
+         */
+
 
 
     }
