@@ -49,7 +49,20 @@ commitlrnmemiş veriler gelmez
         SİLİNİR VE GERİ GELMEZ
          */
 
-
+        /*
+        git remote add origin https://github.com/ErsenBasaran/GitApp1.git
+yazıp githubımdaki bir repository dosyamı burası ile tanıştırdım
+         */
+        /*
+        sonra git push yazıyoruz. kabul etmeyip öneri veriyor.
+        verdiği öneri:  git push --set-upstream origin master
+        bunu yazınca kabul ediyor. bundan sonraki pushlarda sadece git push yazmak yetecek
+         böylece gitgub repomuza bu dosyayı eklemiş olduk.
+         */
+// git log --oneline yazınca hem HEAD hem origin/master aynı
+        // origin/master: github'daki versiyon
+        //versiyon 6
+        System.out.println("githubdan sonraki ilk versiyon");
 
     }
 }
