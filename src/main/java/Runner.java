@@ -20,13 +20,18 @@ public class Runner {
 // git commit -m"v1" yazarsak commit area'ya gönderir
 
         // Version2
-        System.out.println("git commit -m\"\" ile versiyon oluşturulur);
+        System.out.println("git commit -m\"\" ile versiyon oluşturulur");
 
                 // git log yazarsak oluşturulma tarihini saatini maili vs gösterir terminalde
 
 
       //versiyon 2
                 System.out.println("hi");
+
+        // versiyon 3
+        System.out.println("ana");
+
+
 
 
     }
